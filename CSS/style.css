@@ -1,18 +1,89 @@
-/* Base styles */
-body {
+:root {
     font-family: Arial, sans-serif;
+    color: #20252b;
+    background: #f4f6f8;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
     margin: 0;
-    padding: 32px;
-    background-color: #f4f6f8;
-    color: #20552b;
 }
 
-/* Main heading */
-h1 {
-    margin-bottom: 8px;
+.container {
+    width: min(100% - 32px, 960px);
+    margin-inline: auto;
 }
 
-/* Page description */
-p {
-    line-height: 1.6;
+.site-header {
+    padding: 28px 0;
+    background: #20252b;
+    color: #ffffff;
+}
+
+.site-header h1 {
+    margin: 0 0 8px;
+}
+
+.site-header p {
+    margin: 0;
+    color: #d0d7de;
+}
+
+main {
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+
+.filter-panel {
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #dce1e7;
+    border-radius: 12px;
+}
+
+input,
+select {
+    width: 100%;
+    min-height: 44px;
+    padding: 10px 12px;
+    border: 1px solid #b8c0ca;
+    border-radius: 8px;
+    background: #ffffff;
+    color: inherit;
+    font: inherit;
+}
+
+input:focus,
+select:focus {
+    outline: 2px solid #3978d4;
+    outline-offset: 2px;
+}
+
+.materials-section {
+    margin-top: 24px;
+}
+
+.empty-state {
+    padding: 24px;
+    background: #ffffff;
+    border: 1px dashed #b8c0ca;
+    border-radius: 12px;
+    color: #5b6570;
+    text-align: center;
+}
+
+.site-footer {
+    padding: 16px;
+    color: #5b6570;
+    text-align: center;
+    font-size: 14px;
+}
+
+.site-footer p {
+    margin: 0;
 }
