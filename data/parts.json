@@ -1,0 +1,53 @@
+{
+    "schemaVersion": "1.0.0",
+    "parts":[
+        {
+            "id": "helmet_plating",
+            "name": {
+                "zh": "头盔镶板",
+                "es": null,
+                "en": null
+            }
+        },
+        {
+            "id": "chestplate_plating",
+            "name": {
+                "zh": "胸甲镶板",
+                "es": null,
+                "en": null
+            }
+        },
+        {
+            "id": "leggings_plating",
+            "name": {
+                "zh": "护腿镶板",
+                "es": null,
+                "en": null
+            }
+        },
+        {
+            "id": "boots_plating",
+            "name": {
+                "zh": "靴子镶板",
+                "es": null,
+                "en": null
+            }
+        },
+        {
+            "id": "shield_base",
+            "name": {
+                "zh": "盾牌基底",
+                "es": null,
+                "en": null
+            }
+        },
+        {
+            "id": "leather_chain_base",
+            "name": {
+                "zh": "皮革和锁链基底",
+                "es": null,
+                "en": null
+            }
+        }
+    ]
+}

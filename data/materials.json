@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0.0",
+  "gameVersion": "CTI 0.46a",
+  "materials": [
+    {
+      "id": "example_material",
+      "name": {
+        "zh": "示例材料",
+        "es": null,
+        "en": null
+      },
+      "applicability": [
+        {
+          "usage": "armor",
+          "parts": [
+            "helmet_plating"
+          ]
+        }
+      ],
+      "stats": [],
+      "effects": [],
+      "sources": [],
+      "verification": {
+        "status": "unverified",
+        "notes": "结构测试记录，不代表真实游戏数据。"
+      }
+    }
+  ]
+}

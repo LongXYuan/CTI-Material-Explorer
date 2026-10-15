@@ -7,8 +7,65 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <h1>CTI Material Explorer</h1>
-    <p>CTI 0.46a 护甲材料筛选器</p>
-    <p>项目状态：开发中</p>
+    <!-- 页面顶部 -->
+    <header class="site-header">
+        <div class="container">
+            <h1>CTI 材料筛选器</h1>
+            <p>版本：CTI 0.46a</p>
+        </div>
+    </header>
+
+    <!-- 页面主要内容 -->
+    <main class="container">
+
+        <!-- 筛选区域 -->
+        <section class="filter-panel">
+            <h2>材料筛选</h2>
+
+            <!-- 材料搜索 -->
+            <label for="material-search">搜索材料</label>
+            <input
+                id="material-search"
+                type="search"
+                placeholder="输入材料名称......"
+                autocomplete="off"
+            >
+
+            <!-- 用途选择 -->
+            <label for="usage-filter">用途</label>
+            <select id="usage-filter">
+                <option value="">请选择用途</option>
+                <option value="armor">护甲</option>
+                <option value="tool">工具</option>
+                <option value="ranged">远程</option>
+                <option value="special">特殊</option>
+                <option value="other">其他</option>
+            </select>
+
+            <!-- 部件类型选择 -->
+            <label for="part-filter">部件类型</label>
+            <select id="part-filter" disabled>
+                <option value="">请先选择用途</option>
+            </select>
+        </section>
+
+        <!---->
+        <section class="materials-section">
+            <h2>材料列表</h2>
+
+            <p class="empty-state">
+                材料数据将在后续步骤接入。
+            </p>
+        </section>
+
+    </main>
+
+    <!-- 页面底部 -->
+    <footer class="site-footer">
+        <p>CTI Material Explorer · Community project</p>
+    </footer>
+
+    <!-- JavaScript：处理用途与部件类型的联动 -->
+    <script src="js/app.js"></script>
 </body>
 </html>
